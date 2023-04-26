@@ -6,7 +6,10 @@ nodeVersion: '12'
 cmsName: contentful
 modelsSource:
   type: contentful
-
+publishDir: out
+dataDir: config
+pagesDir: docs
+models:
   doc:
     type: page
     label: Doc
